@@ -42,12 +42,12 @@ GitHub Profile README
   />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=Rohitangshu2026&theme=tokyonight&hide_border=true"
     alt="Rohitangshu2026"
   />
-</p>
+</p> -->
 
 
 
