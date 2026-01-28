@@ -1,43 +1,54 @@
 <!--
-**Rohitangshu2026/Rohitangshu2026** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Rohitangshu2026/Rohitangshu2026
+GitHub Profile README
 -->
+
 <h1 align="center">Hi 👋, I'm Rohitangshu Bose</h1>
 <h3 align="center">Systems & Backend Engineer</h3>
 
+<p align="center">
+  <em>Building reliable, scalable systems from the ground up</em>
+</p>
 
-- 🎓 M.Tech CSE @ IIIT Bangalore  
-- 🛠 Building systems: databases, distributed KV stores, backend services  
-- ⚙️ Interests: Concurrency, Storage Engines, Distributed Systems  
+---
+
+### 👨‍💻 About Me
+
+- 🎓 **M.Tech in Computer Science** @ IIIT Bangalore  
+- 🛠 Passionate about **systems engineering**, databases, and backend infrastructure  
+- ⚙️ Interests: **Concurrency, Storage Engines, Distributed Systems**  
 - 📫 Reach me at: **rbose2002@gmail.com**
 
+---
 
 ### 🛠 Tech Stack
-<p>
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,java,spring,postgres,redis,docker,linux,git" />
 </p>
 
+---
 
 ### 📊 GitHub Stats
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&theme=tokyonight" />
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
-
-### 🌐 Connect with me
-<p>
-  <a href="https://www.linkedin.com/in/rohitangshu-bose-547268178/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="https://github.com/Rohitangshu2026"><img src="https://skillicons.dev/icons?i=github" /></a>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
+---
+
+### 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rohitangshu-bose-547268178/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Rohitangshu2026" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+</p>
