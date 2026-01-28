@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **Rohitangshu2026/Rohitangshu2026** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -35,3 +33,11 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&theme=tokyonight" />
 </p>
+
+
+### 🌐 Connect with me
+<p>
+  <a href="https://linkedin.com/in/your-link"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://github.com/Rohitangshu2026"><img src="https://skillicons.dev/icons?i=github" /></a>
+</p>
+
