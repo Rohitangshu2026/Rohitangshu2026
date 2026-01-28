@@ -29,18 +29,17 @@ GitHub Profile README
 
 ---
 
-### 📊 GitHub Stats
-
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight&hide_border=true&line_height=28"
+    src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight&hide_border=true"
     width="49%"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=Rohitangshu2026&theme=tokyonight&hide_border=true"
     width="49%"
   />
 </p>
+
 
 
 
