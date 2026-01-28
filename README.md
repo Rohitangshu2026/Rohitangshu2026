@@ -33,8 +33,5 @@ Here are some ideas to get you started:
 ### 📊 GitHub Stats
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight" />
-</p>
-
-<p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&theme=tokyonight" />
 </p>
