@@ -14,3 +14,27 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<h1 align="center">Hi 👋, I'm Rohitangshu Bose</h1>
+<h3 align="center">Systems & Backend Engineer</h3>
+
+
+- 🎓 M.Tech CSE @ IIIT Bangalore  
+- 🛠 Building systems: databases, distributed KV stores, backend services  
+- ⚙️ Interests: Concurrency, Storage Engines, Distributed Systems  
+- 📫 Reach me at: **rbose2002@gmail.com**
+
+
+### 🛠 Tech Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,spring,postgres,redis,docker,linux,git" />
+</p>
+
+
+### 📊 GitHub Stats
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight" />
+</p>
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&theme=tokyonight" />
+</p>
