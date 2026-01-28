@@ -37,7 +37,7 @@ Here are some ideas to get you started:
 
 ### 🌐 Connect with me
 <p>
-  <a href="https://linkedin.com/in/your-link"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://https://www.linkedin.com/in/rohitangshu-bose-547268178/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
   <a href="https://github.com/Rohitangshu2026"><img src="https://skillicons.dev/icons?i=github" /></a>
 </p>
 
