@@ -17,6 +17,7 @@ GitHub Profile README
 - 🎓 **M.Tech in Computer Science** @ IIIT Bangalore  
 - 🛠 Passionate about **systems engineering**, databases, and backend infrastructure  
 - ⚙️ Interests: **Concurrency, Storage Engines, Distributed Systems**  
+- 🌐 Portfolio: https://rohitangshu-bose-portfolio.netlify.app  
 - 📫 Reach me at: **rbose2002@gmail.com**
 
 ---
@@ -63,5 +64,9 @@ GitHub Profile README
   &nbsp;&nbsp;
   <a href="https://github.com/Rohitangshu2026" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://rohitangshu-bose-portfolio.netlify.app/" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/domain.png" height="48"/>
   </a>
 </p>
