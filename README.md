@@ -36,8 +36,8 @@ GitHub Profile README
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github.com/Rohitangshu2026/Rohitangshu2026/raw/main/github-stats.svg" alt="GitHub Stats" />
-  <img src="https://github.com/Rohitangshu2026/Rohitangshu2026/raw/main/top-langs.svg" alt="Top Languages" />
+  <img src="./github-stats.svg" alt="GitHub Stats" width="48%" />
+  <img src="./top-langs.svg" alt="Top Languages" width="48%" />
 </p>
 
 <!-- <p align="center">
