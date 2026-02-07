@@ -2,39 +2,48 @@ name: Update GitHub Stats Images
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Every day at midnight UTC
-  workflow_dispatch:      # Allows manual trigger from the Actions tab
+    - cron: '0 3 * * *'   # Every day at 3 AM UTC (~8:30 AM IST)
+  workflow_dispatch:      # Manual trigger
 
 jobs:
-  build:
+  update-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Required for committing SVGs back to repo
+
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          username: Rohitangshu2026
-          output_type: svg
-          theme: tokyonight
-          hide_border: true
-          show_icons: true
-          filename: github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}   # Built-in token has write access
 
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@master
+      - name: Generate Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          username: Rohitangshu2026
-          output_type: svg
-          theme: tokyonight
-          hide_border: true
-          layout: compact
-          filename: top-langs.svg
+          card: stats
+          options: |
+            username=${{ github.repository_owner }}
+            show_icons=true
+            theme=tokyonight
+            hide_border=true
+            count_private=false   # Set true if you have PAT for private repos
+          path: github-stats.svg
 
-      - name: Commit changes
+      - name: Generate Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: |
+            username=${{ github.repository_owner }}
+            layout=compact
+            theme=tokyonight
+            hide_border=true
+          path: top-langs.svg
+
+      - name: Commit updated SVGs if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add *.svg
-          git commit -m "chore: update readme stats images" || echo "No changes to commit"
+          git add github-stats.svg top-langs.svg
+          git commit -m "chore: update GitHub stats SVGs [skip ci]" || echo "No changes to commit"
           git push
