@@ -22,24 +22,22 @@ GitHub Profile README
 
 ---
 
-### 🛠 Tech Stack
+### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,spring,postgres,redis,docker,linux,git" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,spring,postgres,mysql,redis,docker,kubernetes,linux,git" alt="Tech Stack" />
 </p>
 
----
+**Languages** ・ C ・ C++ ・ Java  
+**Backend** ・ Spring Boot ・ REST APIs ・ Spring Security ・ JPA/Hibernate  
+**Databases** ・ PostgreSQL ・ MySQL ・ Redis  
+**Systems & Tools** ・ Linux ・ POSIX ・ Git ・ Docker ・ Kubernetes ・ TCP sockets ・ Multithreading
 
-## 📊 GitHub Stats  
+## 📊 GitHub Stats
 
 <p align="center">
-  <img
-  src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Rohitangshu2026&show_icons=true&theme=tokyonight&hide_border=true"
-/>
-
-  <img
-  src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Rohitangshu2026&layout=compact&theme=tokyonight&hide_border=true"
-/>
+  <img src="https://github.com/Rohitangshu2026/Rohitangshu2026/raw/main/github-stats.svg" alt="GitHub Stats" />
+  <img src="https://github.com/Rohitangshu2026/Rohitangshu2026/raw/main/top-langs.svg" alt="Top Languages" />
 </p>
 
 <!-- <p align="center">
