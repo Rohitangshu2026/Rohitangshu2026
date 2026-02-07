@@ -2,20 +2,23 @@ name: Update GitHub Stats Images
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # Every day at 3 AM UTC (~8:30 AM IST)
-  workflow_dispatch:      # Manual trigger
+    - cron: '0 3 * * *'   # ~8:30 AM IST daily
+  workflow_dispatch:
 
 jobs:
-  update-stats:
+  update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Required for committing SVGs back to repo
+      contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # Built-in token has write access
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create profile folder if missing
+        run: mkdir -p profile
 
       - name: Generate Stats Card
         uses: readme-tools/github-readme-stats-action@v1
@@ -26,8 +29,8 @@ jobs:
             show_icons=true
             theme=tokyonight
             hide_border=true
-            count_private=false   # Set true if you have PAT for private repos
-          path: github-stats.svg
+            count_private=false
+          path: profile/github-stats.svg
 
       - name: Generate Top Languages Card
         uses: readme-tools/github-readme-stats-action@v1
@@ -38,12 +41,12 @@ jobs:
             layout=compact
             theme=tokyonight
             hide_border=true
-          path: top-langs.svg
+          path: profile/top-langs.svg
 
-      - name: Commit updated SVGs if changed
+      - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add github-stats.svg top-langs.svg
-          git commit -m "chore: update GitHub stats SVGs [skip ci]" || echo "No changes to commit"
+          git add profile/*.svg
+          git commit -m "chore: update readme stats SVGs [skip ci]" || echo "No changes to commit"
           git push
