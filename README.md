@@ -33,11 +33,13 @@ GitHub Profile README
 **Databases** ・ PostgreSQL ・ MySQL ・ Redis  
 **Systems & Tools** ・ Linux ・ POSIX ・ Git ・ Docker ・ Kubernetes ・ TCP sockets ・ Multithreading
 
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./github-stats.svg" alt="GitHub Stats" width="48%" />
-  <img src="./top-langs.svg" alt="Top Languages" width="48%" />
+  <img src="./profile/github-stats.svg" alt="GitHub Stats" width="48%" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" width="48%" />
 </p>
 
 <!-- <p align="center">
