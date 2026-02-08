@@ -13,7 +13,7 @@ GitHub Profile README
 <p align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 
 
-## About Me
+### About Me
 
 **M.Tech — Computer Science and Engineering** @ IIIT Bangalore  
 Passionate about **systems engineering**, databases, and backend development  
@@ -23,7 +23,7 @@ Reach me at: **rbose2002@gmail.com**
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,java,spring,postgres,mysql,redis,docker,kubernetes,jenkins,ansible,linux,git" alt="Tech Stack" />
@@ -36,7 +36,7 @@ Reach me at: **rbose2002@gmail.com**
 
 ---
 
-## GitHub Stats
+### GitHub Stats
 
 <p align="center">
   <img src="./profile/github-stats.svg" height="180"/>
@@ -46,7 +46,7 @@ Reach me at: **rbose2002@gmail.com**
 
 ---
 
-## Connect with Me
+### Connect with Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/rohitangshu-bose-547268178/" target="_blank">
